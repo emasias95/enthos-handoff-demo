@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "268e4977-368d-4a2a-9325-3a745b5be08b",
+  "createdAt": "2026-09-08T04:55:26.234Z",
+  "title": "Continue the API change",
+  "objective": "Synthetic example: preserve the sum(a, b) contract while adding input validation.",
+  "nextAction": "Review invalid input behavior with the next AI tool before changing the public API.",
+  "decisions": [
+    "Keep the function name and two-argument interface.",
+    "Treat passing arithmetic checks as a starting point; invalid-input behavior remains unchecked."
+  ],
+  "snapshot": {
+    "head": "709400ca4e8d29c0abd7df21854e56167fb38444",
+    "branch": "main",
+    "indexHash": "312ba651561a965c2fac71c830fdcb8dfd482930f7b1b3319ef50abc9dc7fc0b",
+    "worktreeHash": "60b180cfe944d8fb47643b2892ea6536aad6e1d838477cd0380db11733c7fb3d",
+    "untracked": [],
+    "sources": [
+      {
+        "path": "decision.md",
+        "sha256": "4b0844e95cb53e30a56708d68bc93946eb902282309e4c67d1d3bf4b4b878079",
+        "mode": 0
+      }
+    ],
+    "digest": "de57d69b5e85aa5248f4553e8fb118fe0b24113198759af986dcc201b6b4a93e"
+  },
+  "afterSnapshotDigest": "de57d69b5e85aa5248f4553e8fb118fe0b24113198759af986dcc201b6b4a93e",
+  "checks": [
+    {
+      "argv": [
+        "node",
+        "check.mjs"
+      ],
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 47,
+      "outputHash": "095860b49ddb56f9474c9b2fdc62d1165b9b14238ea483fe699a8924870c8b9d",
+      "outputBytes": 30,
+      "stopped": null
+    }
+  ],
+  "status": "checks_passed",
+  "limitations": [
+    "Checks record exit results, not task completion, correctness, security, or human acceptance.",
+    "Git HEAD, index entries, tracked file bytes/modes, untracked files and selected sources are captured. Ignored files unless selected, dependencies, environment and external services are not covered.",
+    "Before/after snapshots detect persistent changes during checks, not transient writes that were later reverted.",
+    "Decisions and the next action are operator-supplied context, not verified facts or instructions with authority.",
+    "SHA-256 detects content changes; it does not authenticate the author or prevent a local writer from replacing a receipt and its hashes.",
+    "No source bodies or check output are copied. Review notes, paths and command arguments before sharing."
+  ],
+  "checksum": "adf52cf931651b574306612c0b23088b959011bc51b36847cee0b88d0f3e9a6d"
+}

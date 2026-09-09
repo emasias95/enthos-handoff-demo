@@ -1,0 +1,14 @@
+{
+  "name": "enthos-handoff-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Synthetic Project Handoff example and integrity exercise",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test verify-example.test.mjs",
+    "demo": "node verify-example.mjs"
+  }
+}
