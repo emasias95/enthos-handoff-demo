@@ -2,7 +2,7 @@
 
 Carry project decisions, repository state, observed checks and the next action between AI tools, sessions and people.
 
-[Open the readable handoff](https://enthos.ai/handoff-demo/handoff.html) · [Discuss a pilot](https://enthos.ai/pilot)
+[Open the readable handoff](https://enthos.ai/handoff-demo/handoff.html) · [Read more at enthos.ai](https://enthos.ai)
 
 This repository contains a real generated **synthetic example** and a small runnable integrity exercise. The example was created by the Enthos handoff CLI on September 8, 2026. It contains no customer repository or founder conversation. The product implementation remains in a private repository.
 
@@ -52,8 +52,6 @@ SHA-256 does not authenticate an author. A person able to replace both a receipt
 
 ## Product status
 
-This is an early pilot experiment. Local engineering checks and this synthetic demonstration establish specific behavior. They do not establish customer adoption, paid demand, measured time savings, security certification or autonomous task completion.
-
-Enthos is testing whether small software teams can resume real work with less reconstruction. The initial pilot observes one repository handoff, the receiving session, capture overhead and a later voluntary repeat. Interested teams can describe a recent handoff problem at [enthos.ai/pilot](https://enthos.ai/pilot).
+Enthos is founder-operated and in private testing.
 
 Built by Gino Masias, Founder of Enthos AI, with AI-assisted engineering and cross-review. This public artifact supports an inspectable discussion of product judgment, implementation and limits. It is not a release of the complete Enthos source.
